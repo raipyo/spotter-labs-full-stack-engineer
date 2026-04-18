@@ -14,7 +14,10 @@ export default function App() {
   const submit = async () => {
     setLoading(true);
     try {
-      const res = await axios.post("http://127.0.0.1:8000/api/plan-trip/", form);
+      const res = await axios.post(
+        `${import.meta.env.VITE_API_URL}/api/plan-trip/`,
+        form
+      );
       setData(res.data);
     } catch (e) {
       alert("Error planning trip");
