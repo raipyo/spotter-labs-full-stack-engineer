@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-81-k&zh+igukwjxj*t#hl0f5bbq#pjyw5-w6!u^*ns9wgr%u-s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'spotter-labs-full-stack-engineer-backend.onrender.com']
 
 
 # Application definition
